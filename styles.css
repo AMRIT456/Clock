@@ -1,0 +1,38 @@
+.clockcontainer {
+    position: relative;
+    margin-left: 400px;
+    margin-top: 40px;
+    height: 500px;
+    width: 500px;
+    background: url('clock.jpg') no-repeat center;
+    background-size: contain;
+    border: 5px solid rgb(25, 104, 57);
+    border-radius: 50%;
+    overflow: hidden;
+}
+.hand {
+    position: absolute;
+    background-color: black;
+    transform-origin: 50% 100%;
+    margin-left: 250px;
+    margin-top: 80px;
+}
+#hour {
+    width: 13px;
+    height: 165px;
+    border-radius: 100px;
+}
+
+#min {
+    width: 6px;
+    height: 169px;
+    border-radius: 100px;
+    background-color: green;
+}
+
+#second {
+    width: 2px;
+    height: 168px;
+    border-radius: 100px;
+    background-color: red;
+}
